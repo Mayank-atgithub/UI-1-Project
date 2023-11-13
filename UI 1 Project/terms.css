@@ -1,0 +1,62 @@
+body {
+    font-size: 200%;
+}
+#heading{
+    background-color: #333;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0 0 10px
+    currentColor;
+    font-size: 150%;
+    padding: 20px 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#sec1,#sec3,#sec5,#sec7{
+    padding-left: 50px;
+    overflow: hidden;
+    position: relative;
+    background-color: #e2e8f7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sec2,#sec4,#sec6,#sec8{
+    padding-left: 50px;
+    overflow: hidden;
+    position: relative;
+    background-color: #d5dcec;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.create{
+    color: blueviolet;
+    text-decoration: none;
+}
+.create:active,.create:visited{
+    color:blueviolet
+}
+.create:hover{
+    text-shadow: 0 0 10px
+    currentColor;
+}
+#foot{
+    background-color: #313B47;
+    color: white;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#mark{
+    text-align: center;
+}
+.mark_link{
+    color: white;
+    text-decoration: none;
+}
+.mark_link:hover{
+    text-shadow: 0 0 10px
+    currentColor;
+}
+.mark_link:visited,.mark_link:active{
+    color: white
+}

@@ -1,0 +1,131 @@
+body {
+    font-size: 200%;
+}
+#heading{
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    text-shadow: 0 0 10px
+    currentColor;
+    font-size: 150%;
+    padding: 20px 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 10px
+    currentColor;
+    font-size: 100%;
+}  
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}  
+.topnav a:active,a:visited {
+    background-color: white;
+    color: white;
+}
+#instruct{
+    background-color:#eff2f9;
+    text-align: left;
+    border-bottom: 1px solid #eff2f9;
+    border-top: 1px solid #eff2f9;
+    margin-bottom: -1px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#form{
+    padding-left: 50px;
+    background-color: #00C8AA;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input:focus,textarea:focus{
+    background-color:grey;
+}
+#terms a{
+    color:blueviolet;
+    text-decoration: none;
+}
+#terms a:hover{
+    color: blueviolet;
+    text-shadow: 0 0 10px
+    currentColor;
+}
+#button_container{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#button1{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+}
+.button1{
+    background-color:blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 100%;
+    text-align: left;
+    text-shadow: 0 0 10px
+    currentColor;
+}
+.button1:hover{
+    filter: brightness(90%);
+}
+#button2{
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+    display: block;
+}
+.button2{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 100%;
+    text-align: left;
+    text-shadow: 0 0 10px
+    currentColor;
+}
+.button2:hover{
+    filter: brightness(90%);
+}
+#foot{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -100px;
+    padding-left: 50px;
+    background-color: #313B47;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#mark{
+    text-align: center;
+}
+.mark_link{
+    color: white;
+    text-decoration: none;
+}
+.mark_link:hover{
+    text-shadow: 0 0 10px
+    currentColor;
+}
+.mark_link:visited,.mark_link:active{
+    color: white
+}

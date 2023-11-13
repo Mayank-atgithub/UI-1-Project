@@ -1,0 +1,75 @@
+body {
+    font-size: 200%;
+}
+#heading{
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    text-shadow: 0 0 10px
+    currentColor;
+    font-size: 150%;
+    padding: 20px 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: right;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 10px
+    currentColor;
+    font-size: 100%;
+}  
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}  
+.topnav a:active,a:visited {
+    background-color: white;
+    color: white;
+}
+#ques1,#ques2{
+    padding-left: 50px;
+    background-color:#d5dcec;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link1,.link2{
+    text-decoration: none;
+}
+.link1:active,.link1:visited,.link2:active,.link2:visited{
+    color: rebeccapurple
+}
+.link1:hover,.link2:hover{
+    text-shadow: 0 0 10px
+    currentColor;
+}
+#foot{
+    background-color: #313B47;
+    color: white;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    padding-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#mark{
+    text-align: center;
+}
+.mark_link{
+    color: white;
+    text-decoration: none;
+}
+.mark_link:hover{
+    text-shadow: 0 0 10px
+    currentColor;
+}
+.mark_link:visited,.mark_link:active{
+    color: white
+}

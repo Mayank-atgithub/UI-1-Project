@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Resume.Build/create</title>
+        <link rel="icon" href="icon.png" type="image/x-icon">
+    </head>
+    <link rel="stylesheet" type="text/css" href="create.css">
+    <body>
+        <header>
+            <div class="topnav">
+                <div id="heading">
+                    Create Resume
+                </div>
+                <a href="privacy.html" id="privacy">Privacy Policy</a>
+                <a href="faq.html" id="faq">FAQ's</a>
+                <a href="contact.html" id="contact">Contact US</a>
+                <a href="create.html" id="create">Create Resume</a>
+                <a href="index.html" id="index">Home</a>
+            </div>
+        </header>
+
+        <main>
+            <div id="instruct">
+                <h2>How to Create Your Resume</h2>
+                <ol>
+                    <li>Fill out the form with your personal information, education, work experience, skills, and projects.</li>
+                    <li>Double-check your entries for accuracy.</li>
+                    <li>Click the "Generate Resume" button to preview and download your resume in various formats.</li>
+                </ol>
+            </div>
+            <div id="form">
+                <h2>Resume Information</h2>
+                <form id="resume-form">
+
+                <!-- Personal Information -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </fieldset>
+
+                <!-- Education -->
+                <fieldset>
+                    <legend>Education</legend>
+                    <div class="education-entry">
+                        <label for="edu-degree1">Degree:</label>
+                        <input type="text" id="edu-degree1" name="edu-degree1" required>
+                        <label for="edu-school1">School:</label>
+                        <input type="text" id="edu-school1" name="edu-school1" required>
+                        <label for="edu-year1">Year:</label>
+                        <input type="text" id="edu-year1" name="edu-year1" required>
+                    </div>
+                    <!-- Add more education entries as needed -->
+                </fieldset>
+                
+                <!-- Work Experience -->
+                <fieldset>
+                    <legend>Work Experience</legend>
+                    <div class="experience-entry">
+                        <label for="exp-job1">Job Title:</label>
+                        <input type="text" id="exp-job1" name="exp-job1" required>
+                        <label for="exp-company1">Company:</label>
+                        <input type="text" id="exp-company1" name="exp-company1" required>
+                        <label for="exp-year1">Year:</label>
+                        <input type="text" id="exp-year1" name="exp-year1" required>
+                    </div>
+                    <!-- Add more work experience entries as needed -->
+                </fieldset>
+                
+                <!-- Skills -->
+                <fieldset>
+                    <legend>Skills</legend>
+                    <label for="skills">Enter your skills :</label>
+                    <textarea id="skills" name="skills" required></textarea>
+                </fieldset>
+                
+                <!-- Projects -->
+                <fieldset>
+                    <legend>Projects</legend>
+                    <label for="projects">Enter your projects :</label>
+                    <textarea id="projects" name="projects" rows="5" required></textarea>
+                </fieldset>
+                <br>
+                <!--Terms and Conditions-->
+                <div id="terms">
+                    <input type="checkbox" required >I agree to the "<a href="terms.html">Terms and Conditions</a>"
+                </div>
+                <div id="button_container">
+                    <!-- Submit Button -->
+                    <div id="button1">
+                        <input type="submit" value="Generate Resume" class="button1">
+                    </div>
+                    <!--reset button-->
+                    <div id="button2">
+                        <input type="reset" value="Click here to Clear this form" class="button2">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </main>
+
+        <footer id="foot">
+            <p id="mark"><a href="index.html" class="mark_link">&copy;2023 Resume.Build</a></p>
+        </footer>
+    </body>
+</html>
